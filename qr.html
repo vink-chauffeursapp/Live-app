@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vink Kunststoffen</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: #f5f5f5;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+    }
+    .card {
+      background: white;
+      border-radius: 16px;
+      padding: 32px 24px;
+      max-width: 360px;
+      width: 100%;
+      text-align: center;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.10);
+    }
+    .header {
+      background: #F5C000;
+      border-radius: 12px;
+      padding: 16px;
+      margin-bottom: 24px;
+    }
+    .header img {
+      height: 36px;
+    }
+    .icon { font-size: 48px; margin-bottom: 16px; }
+    h1 { font-size: 20px; font-weight: 700; color: #1a1a1a; margin-bottom: 10px; }
+    p { font-size: 14px; color: #666; line-height: 1.6; margin-bottom: 16px; }
+    .stap {
+      background: #fef9e7;
+      border-radius: 10px;
+      padding: 14px 16px;
+      margin-bottom: 10px;
+      text-align: left;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .stap-nr {
+      background: #F5C000;
+      border-radius: 50%;
+      width: 28px;
+      height: 28px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      font-size: 14px;
+      flex-shrink: 0;
+    }
+    .stap-tekst { font-size: 13px; color: #333; }
+    .footer { margin-top: 24px; font-size: 11px; color: #bbb; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="header">
+      <strong style="font-size:18px;">VINK Kunststoffen</strong>
+    </div>
+    <div class="icon">📱</div>
+    <h1>Open de app eerst</h1>
+    <p>Scan de QR-code vanuit de <strong>Chauffeursapp</strong>, niet via de camera van je telefoon.</p>
+
+    <div class="stap">
+      <div class="stap-nr">1</div>
+      <div class="stap-tekst">Open de <strong>Chauffeursapp</strong> via de knop op je startscherm</div>
+    </div>
+    <div class="stap">
+      <div class="stap-nr">2</div>
+      <div class="stap-tekst">Tik op <strong>"Rit beginnen"</strong> of <strong>"Rit beëindigen"</strong></div>
+    </div>
+    <div class="stap">
+      <div class="stap-nr">3</div>
+      <div class="stap-tekst">Scan de QR-code via de camera in de app</div>
+    </div>
+
+    <div class="footer">vink-chauffeursapp.github.io</div>
+  </div>
+</body>
+</html>
